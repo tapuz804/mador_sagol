@@ -7,4 +7,5 @@ pyshark
 netifaces
 dnspython
 pycurl
-
+jsonschema
+pillow

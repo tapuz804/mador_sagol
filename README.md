@@ -26,4 +26,12 @@ pip install -r requirments.txt
 
 ## Bodel
 
+[PNG file format](http://www.libpng.org/pub/png/spec/1.2/PNG-Contents.html)
+
+[Pillow library to verify PNG](https://pillow.readthedocs.io/en/stable/)
+
+[JSON schema](https://json-schema.org/understanding-json-schema/reference)
+
+[JSON schema python library](https://python-jsonschema.readthedocs.io/en/latest/validate/)
+
 ## Libraries
