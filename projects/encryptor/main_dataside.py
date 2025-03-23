@@ -1,11 +1,11 @@
 from scapy.all import *
-from tashtiot_utils import *
+from tashtiot_utils.check_pkt import check_pkt, INVALID_PKT, VALID_PKT_FROM_RED, VALID_PKT_FROM_BLACK
+from tashtiot_utils.get_payload_to_encrypt import get_payload_to_encrypt
+from tashtiot_utils.get_payload_to_decrypt import get_payload_to_decrypt
+from tashtiot_utils.reconstruct_encrypted_pkt import reconstruct_encrypted_pkt
+from tashtiot_utils.reconstruct_decrypted_pkt import reconstruct_decrypted_pkt
 from encryptor import encryptor
 from decryptor import decryptor
-
-VALID_PKT_FROM_RED = 0
-VALID_PKT_FROM_BLACK = 1
-INVALID_PKT = -1
 
 main_iface_ip = "ENTER IP HERE"
 red_machine_ip = "ENTER IP HERE"
